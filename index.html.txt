@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mana Ziedojumu Lapa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Atbalsti mūsu pārgājienu sapni</h1>
+    <p>Ziedo un palīdzēsi mums saglabāt dabu un doties tālāk!</p>
+  </header>
+
+  <div class="container">
+    <section class="tiers">
+      <!-- Tier 1 -->
+      <div class="tier">
+        <h2>Manam sapnim</h2>
+        <p>1 € – 10 €</p>
+        <button class="donate-btn">Ziedot</button>
+      </div>
+
+      <!-- Tier 2 -->
+      <div class="tier">
+        <h2>Mūsu spēkam</h2>
+        <p>10 € – 15 €</p>
+        <button class="donate-btn">Ziedot</button>
+      </div>
+
+      <!-- Tier 3 -->
+      <div class="tier">
+        <h2>Lielam mērķim</h2>
+        <p>15 € – 20 €</p>
+        <button class="donate-btn">Ziedot</button>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Mana Ziedojumu Lapa. Paldies par atbalstu!</p>
+  </footer>
+
+<script src="store.js"></script>
+
+</body>
+</html>
